@@ -11,7 +11,7 @@ changeColor.addEventListener('click', () => {
 	if(selectBlock){
 		gridItems.forEach((item)=>{
 			item.style.backgroundColor = "transparent";
-		});
+		}); 
 		selectBlock.style.backgroundColor = color;
 	}else{
 		alert("Invalid block Id. Please provide correct Id... ");
