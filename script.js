@@ -1,10 +1,10 @@
 //your JS code here. If required.
 const gridItems = document.querySelectorAll(".grid-item");
 const changeColor = document.getElementById("change_button");
-const resetButton = document.getElementById("Reset");
+const resetButton = document.getElementById("reset_button");
 
 changeColor.addEventListener('click', () => {
-	const color = document.getElementById("color_id").value;
+	const color = document.getElementById("colour_id").value;
 	const blockId = document.getElementById("block_id").value;
 
 	const selectBlock = document.getElementById(blockId);
