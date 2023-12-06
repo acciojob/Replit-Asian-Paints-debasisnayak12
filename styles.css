@@ -4,6 +4,7 @@
 	grid-template-columns: repeat(3, 100px);
 	grid-gap:5px;
 }
+
 .grid-item{
 	width:100px;
 	height:100px;
@@ -14,4 +15,7 @@
 	justify-content:center;
 	font-size:25px;
 	cursor:pointer;
+}
+.grid-item:nth-child(3){
+	background-color:red;
 }
